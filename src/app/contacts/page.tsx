@@ -296,7 +296,7 @@ export default function ContactsPage() {
                     value={formData.firstName}
                     onChange={handleInputChange}
                     placeholder="Enter first name"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     disabled={isLoading}
                     required
                   />
@@ -314,7 +314,7 @@ export default function ContactsPage() {
                     value={formData.lastName}
                     onChange={handleInputChange}
                     placeholder="Enter last name"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     disabled={isLoading}
                   />
                 </div>
@@ -331,7 +331,7 @@ export default function ContactsPage() {
                     value={formData.phoneNumber}
                     onChange={handleInputChange}
                     placeholder="+61412345678"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     disabled={isLoading}
                     required
                   />
@@ -352,7 +352,7 @@ export default function ContactsPage() {
                     value={formData.companyName}
                     onChange={handleInputChange}
                     placeholder="Enter company name"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     disabled={isLoading}
                   />
                 </div>

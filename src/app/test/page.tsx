@@ -296,7 +296,7 @@ export default function TestPage() {
                         setFormData({ firstName: '', phoneNumber: '' });
                       }
                     }}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     disabled={isLoading || isLoadingContacts}
                   >
                     <option value="">Choose a contact...</option>
@@ -332,7 +332,7 @@ export default function TestPage() {
                   value={formData.firstName}
                   onChange={handleInputChange}
                   placeholder="Enter customer's first name"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   disabled={isLoading}
                 />
               </div>
@@ -349,7 +349,7 @@ export default function TestPage() {
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
                   placeholder="+61412345678"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   disabled={isLoading}
                 />
                 <p className="mt-1 text-xs text-gray-500">
